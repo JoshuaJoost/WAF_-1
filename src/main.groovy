@@ -1,0 +1,17 @@
+def a = new Bruch(5 as BigDecimal,7 as BigDecimal);
+def b = new Bruch(1 as BigDecimal, 10 as BigDecimal)
+def c = new Bruch(2 as BigDecimal, 20 as BigDecimal)
+def d = new Bruch(-1 as BigDecimal, -10 as BigDecimal)
+def e = new Bruch(-2 as BigDecimal, -20 as BigDecimal)
+def f = new Bruch(40 as BigDecimal, 200 as BigDecimal)
+def g = new Bruch(-40 as BigDecimal, 200 as BigDecimal)
+//def h = new Bruch(0 as BigDecimal, 0 as BigDecimal)
+def i = new Bruch(0 as BigDecimal, 1 as BigDecimal)
+def j = new Bruch(1 as BigDecimal, 4 as BigDecimal)
+def k = new Bruch(1 as BigDecimal, 3 as BigDecimal)
+def l = new Bruch(3 as BigDecimal, 9 as BigDecimal)
+def m = new Bruch(2 as BigDecimal, 3 as BigDecimal)
+def n = new Bruch(5 as BigDecimal, 8 as BigDecimal)
+def o = new Bruch(15 as BigDecimal, 24 as BigDecimal)
+
+println(new Bruch(3,4) as BigDecimal)
